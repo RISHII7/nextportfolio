@@ -8,18 +8,18 @@ const items = [
   {
     id: 1,
     color: "from-red-300 to-blue-300",
-    title: "Digital Hippo",
-    desc: "Online Platform where you can buy and sell your products.",
+    title: "Lingo",
+    desc: "Online Platform where you can learn multiple languages.",
     img: "/project1.png",
-    link: "https://digitalhippo-production-12cb.up.railway.app/",
+    link: "https://lingo-two.vercel.app/",
   },
   {
     id: 2,
     color: "from-blue-300 to-violet-300",
-    title: "Space Portfolio",
-    desc: "A space themed website only made to show-off my skills",
+    title: "Game-hub",
+    desc: "Live Streaming platform where you can live stream.",
     img: "/project2.png",
-    link: "https://space-portfolio-pi.vercel.app/",
+    link: "https://gamehub-jet.vercel.app/",
   },
   {
     id: 3,
@@ -32,10 +32,10 @@ const items = [
   {
     id: 4,
     color: "from-purple-300 to-red-300",
-    title: "LMS Project",
-    desc: "An online platform where you can enhance your skills  by learning new programming languages or technologies.",
+    title: "CaseCobra",
+    desc: "An online platform where you can customize you phone case according to your liking.",
     img: "/project4.png",
-    link: "https://github.com/RISHII7/",
+    link: "https://casecobra-chi.vercel.app/",
   },
 ];
 
@@ -65,7 +65,7 @@ const PortfolioPage = () => {
                 key={item.id}
               >
                 <div className="flex flex-col gap-8 text-white">
-                  <h1 className="text-xl font-bold md:text-4xl lg:text-6xl xl:text-8xl">
+                  <h1 className="text-xl flex justify-center font-bold md:text-4xl lg:text-6xl xl:text-8xl">
                     {item.title}
                   </h1>
                   <div className="relative w-80 h-56 md:w-96 md:h-64 lg:w-[500px] lg:h-[350px] xl:w-[600px] xl:h-[420px] self-center">
